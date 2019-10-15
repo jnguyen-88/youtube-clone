@@ -1,5 +1,6 @@
 .video-item {
     display: flex !important;
+    flex-wrap: wrap;
     align-items: center;
     cursor: pointer;
 }

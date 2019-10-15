@@ -33,7 +33,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className="ui container">
+            <div className="ui container flex">
                 <SearchBar onFormSubmit={this.onTermSubmit}/>
                 <div className="ui grid">
                     <div className="ui row">
